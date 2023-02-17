@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VladVas", "VladVas\VladVas.csproj", "{BD9FC7F6-1F00-4941-BB58-99A9B5B65875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VladVas.MVVM", "VladVas.MVVM\VladVas.MVVM.csproj", "{FB55AE62-1125-4F9B-B494-CAFCED273869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9FC7F6-1F00-4941-BB58-99A9B5B65875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9FC7F6-1F00-4941-BB58-99A9B5B65875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9FC7F6-1F00-4941-BB58-99A9B5B65875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9FC7F6-1F00-4941-BB58-99A9B5B65875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB55AE62-1125-4F9B-B494-CAFCED273869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB55AE62-1125-4F9B-B494-CAFCED273869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB55AE62-1125-4F9B-B494-CAFCED273869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB55AE62-1125-4F9B-B494-CAFCED273869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F17B8CDC-9C58-43B7-89F6-2706F3CF56AC}
+	EndGlobalSection
+EndGlobal
