@@ -4,17 +4,8 @@
 
 namespace VladVas.ViewModels;
 
-internal class MainViewModel : PropertyChangedBase 
+internal class MainViewModel : ViewModel
 {
-    #region Свойство Title 
-
-    /// <summary>
-    /// Свойство: Title  Тип: string
-    ///   Фрагмент кода... 
-    /// </summary>
-    private string? _Title;
-    public string? Title { get => _Title; set => Set(ref _Title, value); }
-    #endregion
     #region Свойство Text 
 
     /// <summary>
@@ -45,5 +36,10 @@ internal class MainViewModel : PropertyChangedBase
     }
 
     #endregion
+
+    public MainViewModel()
+    {
+        Title = "MainView";
+    }
 
 }
